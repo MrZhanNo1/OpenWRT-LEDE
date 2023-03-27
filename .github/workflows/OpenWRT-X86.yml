@@ -45,7 +45,8 @@ jobs:
       - name: Update Plugins
         run: |
           cd ./lede/package
-          passwall
+          #PassWall
+          git clone --depth=1 --single-branch https://github.com/xiaorouji/openwrt-passwall.git
           #NAS Packages
           git clone --depth=1 --single-branch https://github.com/linkease/nas-packages.git
           #NAS Packages LUCI
