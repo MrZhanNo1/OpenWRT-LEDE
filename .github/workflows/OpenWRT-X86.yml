@@ -45,7 +45,7 @@ jobs:
       - name: Update Plugins
         run: |
           cd ./lede/package
-
+          passwall
           #NAS Packages
           git clone --depth=1 --single-branch https://github.com/linkease/nas-packages.git
           #NAS Packages LUCI
