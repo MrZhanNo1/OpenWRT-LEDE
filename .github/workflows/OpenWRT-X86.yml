@@ -1,4 +1,4 @@
-name:Mrzhan-X86  #设备名请用大写字母
+name: Mrzhan-X86  #设备名请用大写字母
 
 on:
   schedule:
